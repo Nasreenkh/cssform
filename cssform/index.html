@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Volleyball Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Grade Volleyball Registration Form</h1>
+  </header>
+
+  <main>
+    <section class="registration-form">
+      <form action="#" method="POST">
+        <!-- Participant Name -->
+        <p>Participant Name:</p>
+        <div class="name-box">
+          <input type="text" name="first-name" placeholder="First Name" required>
+          <input type="text" name="last-name" placeholder="Last Name" required>
+        </div>
+
+        <!-- Grade -->
+        <p>Grade:</p>
+        <select name="grade" required>
+          <option value="" disabled selected>Please select</option>
+          <option value="a">A</option>
+          <option value="b">B</option>
+          <option value="c">C</option>
+          <option value="d">D</option>
+          <option value="e">E</option>
+        </select>
+
+        <!-- School District -->
+        <p>School District:</p>
+        <input type="text" name="school-district" placeholder="Enter School District" required>
+
+        <!-- Shirt Size -->
+        <p>Shirt Size:</p>
+        <select name="shirt-size" required>
+          <option value="" disabled selected>Please select size</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          <option value="extra-large">Extra Large</option>
+        </select>
+
+        <!-- Parent Name -->
+        <p>Parent Name:</p>
+        <div class="name-box">
+          <input type="text" name="parent-first-name" placeholder="First Name" required>
+          <input type="text" name="parent-last-name" placeholder="Last Name" required>
+        </div>
+
+        <!-- Emergency Contact -->
+        <p>Emergency Contact:</p>
+        <input type="text" name="emergency-contact" placeholder="Enter Emergency Contact" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Volleyball Registration</p>
+  </footer>
+</body>
+</html>
